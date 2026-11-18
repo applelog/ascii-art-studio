@@ -1,0 +1,7 @@
+# conda activate min 환경에 이미 설치된 버전 기준
+numpy>=1.24
+Pillow>=10.0
+pygame-ce>=2.5       # 재생 창 (기본, 빠름)
+opencv-python>=4.8   # 재생 창 (pygame 이 없을 때) · 영상 처리
+pytest>=8.0
+# ffmpeg 실행 파일 필요 (MP4 저장, F7) — min 환경에 있음

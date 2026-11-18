@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+out/
+.DS_Store
+
+# 영상은 저장소를 무겁게 해서 뺀다 (코드를 다시 실행하면 똑같이 나옴). README 데모 GIF 만 둔다
+*.mp4
+*.gif
+!docs/images/*.gif
+
+# 이 컴퓨터 전용 설정
+.claude/settings.local.json
