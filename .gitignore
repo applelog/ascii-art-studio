@@ -11,3 +11,6 @@ out/
 
 # 이 컴퓨터 전용 설정
 .claude/settings.local.json
+
+# 이 컴퓨터에서만 쓰는 보안 검사 워크플로 (저장소에는 올리지 않음)
+.github/workflows/agentshield.yml
